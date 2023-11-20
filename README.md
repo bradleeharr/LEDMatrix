@@ -18,9 +18,9 @@ This repository contains the code for displaying images on a 64x64 LED matrix us
 6. **Connect your ESP32 to your LED display**
 ## Usage
 
-Some sample images are provided in [Image.h](./Image.h). To add your own images, you would want to change the images in this file. The images are packed together in an array `epd_bitmap_allArray.` so the images can be easily cycled through.
+Some sample images are provided in [Image.h](./Image.h). To add your own images, you would want to change the images in this file. You can use https://javl.github.io/image2cpp/ to convert images to bytemaps.
 
-The code will automatically start displaying images from the `epd_bitmap_allArray` array. The images are displayed in a random order and the display will scroll through the images. The brightness of the display can be adjusted using the button connected to GPIO0.
+The images are packed together in an array `epd_bitmap_allArray.` so the images can be easily cycled through. The code will automatically start displaying images from the `epd_bitmap_allArray` array. The images are displayed in a random order and the display will scroll through the images. The brightness of the display can be adjusted using the button connected to GPIO0.
 
 ## Troubleshooting
 
@@ -34,5 +34,5 @@ if you have an issue that isn't listed, please feel free to add an issue or pull
 ## Acknowledgements
 
 This project was made using the Aurora project and the LedEffects Plasma code. Many thanks to the authors of these projects for their work.
-
+Images were converted to bytemaps using https://javl.github.io/image2cpp/.
 ---
