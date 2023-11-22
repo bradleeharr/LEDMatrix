@@ -1,7 +1,7 @@
 # ESP32-64x64-LED-Matrix-Image-Display
 
 <img src="https://github.com/bradleeharr/Image-Display-LED-Matrix/blob/main/20231121_182558%20(1).gif?raw=true"/>
-This repository contains the code for displaying images on a 64x64 LED matrix using an ESP32. The images are displayed using the HUB75E pinout and the FastLED library.
+Displaying images on a 64x64 LED matrix using an ESP32. The images are displayed using the HUB75E pinout and the FastLED library.
 
 ## Features
 
