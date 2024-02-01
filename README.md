@@ -11,12 +11,16 @@ Displaying images on a 64x64 LED matrix using an ESP32. The images are displayed
 - Includes a scrolling feature for images larger than the display
 
 ## Installation and Use
-1.  **Clone the Repository**: This can be done by opening a terminal or command prompt, navigating to the directory where you want to clone the repository, and then running the following command: `git clone https://github.com/bradleeharr/ESP32-64x64-LED-Matrix-Image-Display.git`
-2.  **Install the Necessary Libraries**: The project requires two libraries: ESP32-HUB75-MatrixPanel-I2S-DMA and FastLED. You can install these libraries using the Arduino IDE. To do this, open the Arduino IDE, go to Sketch > Include Library > Manage Libraries. In the Library Manager, search for "ESP32-HUB75-MatrixPanel-I2S-DMA" and "FastLED", and install them.
-3. (Optional, but Recommended) **Download the Demo and Product Documentation**: The project includes a demo with the necessary libraries. You can download this demo from [here](https://files.waveshare.com/upload/6/6d/RGB-Matrix-P4-64x32-Demo.zip). Additionally, you can find the product documentation for the 64x64 LED Matrix [here](https://www.waveshare.com/wiki/RGB-Matrix-P3-64x64).
-4. **Connect Your ESP32 to Your Computer**: To connect your ESP32 to your computer, you will need a USB cable. Plug one end of the cable into the USB port on your ESP32 and the other end into a USB port on your computer.
-5. **Upload the Code to Your ESP32**: Finally, you can upload the code to your ESP32. To do this, open the Arduino IDE, select the correct board and port under Tools > Board and Tools > Port, and then click the Upload button.
+1.  **Clone the Repository**:
+2.  **Install the Necessary Libraries**: The project requires two libraries: ESP32-HUB75-MatrixPanel-I2S-DMA and FastLED. 
+You can install these libraries using the Arduino IDE. 
+  * open the Arduino IDE
+  * go to Sketch > Include Library > Manage Libraries.
+  * In the Library Manager, search for "ESP32-HUB75-MatrixPanel-I2S-DMA" and "FastLED", and install them.
+4. **Connect Your ESP32 to Your Computer**: 
+5. **Upload the Code to Your ESP32**: Open the Arduino IDE, select the correct board and port under Tools > Board and Tools > Port, and then click the Upload button.
 6. **Connect your ESP32 to your LED display**
+
 ## Usage
 
 Some sample images are provided in [Image.h](./Image.h). To add your own images, you would want to change the images in this file. You can use https://javl.github.io/image2cpp/ to convert images to bytemaps.
