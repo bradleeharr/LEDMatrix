@@ -3,13 +3,6 @@
 <img src="https://github.com/bradleeharr/Image-Display-LED-Matrix/blob/main/20231121_182558%20(1).gif?raw=true"/>
 Displaying images on a 64x64 LED matrix using an ESP32. The images are displayed using the HUB75E pinout and the FastLED library.
 
-## Features
-
-- Displays images on a 64x64 LED matrix
-- Supports two chained 64x64 panels
-- Can display images at different brightness levels
-- Includes a scrolling feature for images larger than the display
-
 ## Installation and Use
 1.  **Clone the Repository**:
 2.  **Install the Necessary Libraries**: The project requires two libraries: ESP32-HUB75-MatrixPanel-I2S-DMA and FastLED. 
