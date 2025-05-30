@@ -25,5 +25,5 @@ The images are packed together in an array `epd_bitmap_allArray.` so the images 
 
 ## Acknowledgements
 
-Images were converted to bytemaps using https://javl.github.io/image2cpp/.
----
+* Images were converted to bytemaps using https://javl.github.io/image2cpp/.
+
