@@ -12,7 +12,7 @@ You can install these libraries using the Arduino IDE.
      * Open the Arduino IDE
      * Go to Sketch > Include Library > Manage Libraries.
      * In the Library Manager, search for "ESP32-HUB75-MatrixPanel-I2S-DMA" and "FastLED", and install them.
-4. **Connect Your ESP32 to Your Computer**: 
+4. **Connect Your ESP32 to Your Computer**: Plug-in via USB or other connection
 5. **Upload the Code to Your ESP32**: Open the Arduino IDE, select the correct board and port under Tools > Board and Tools > Port, and then click the Upload button.
 6. **Connect your ESP32 to your LED display**
 
