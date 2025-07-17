@@ -1,5 +1,4 @@
 # LEDMatrix
-ESP32-64x64-LED-Matrix-Image-Display
 
 <p align="center">
 <img src="https://github.com/bradleeharr/Image-Display-LED-Matrix/blob/main/20231121_182558%20(1).gif?raw=true"/>
