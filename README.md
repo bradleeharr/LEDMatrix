@@ -9,9 +9,9 @@ Displaying images on a 64x64 LED matrix using an ESP32. The images are displayed
 1.  **Clone the Repository**:
 2.  **Install the Necessary Libraries**: The project requires two libraries: ESP32-HUB75-MatrixPanel-I2S-DMA and FastLED. 
 You can install these libraries using the Arduino IDE. 
-     2.1 Open the Arduino IDE
-     2.2 Go to **Sketch** > **Include Library** > **Manage Libraries**.
-     2.3 In the Library Manager, search for "ESP32-HUB75-MatrixPanel-I2S-DMA" and "FastLED", and install them.
+     * 2.1 Open the Arduino IDE
+     * 2.2 Go to **Sketch** > **Include Library** > **Manage Libraries**.
+     * 2.3 In the Library Manager, search for "ESP32-HUB75-MatrixPanel-I2S-DMA" and "FastLED", and install them.
 4. **Connect Your ESP32 to Your Computer**: Plug-in via USB or other connection
 5. **Upload the Code to Your ESP32**: Open the Arduino IDE, select the correct board and port under Tools > Board and Tools > Port, and then click the Upload button.
 6. **Connect your ESP32 to your LED display**
